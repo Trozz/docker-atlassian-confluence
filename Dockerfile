@@ -1,5 +1,5 @@
-FROM amazoncorretto:20-alpine
-ENV JRE_HOME /usr/lib/jvm/java-20-amazon-corretto
+FROM amazoncorretto:17-alpine
+
 # Setup useful environment variables
 ENV CONF_HOME     /var/atlassian/confluence
 ENV CONF_INSTALL  /opt/atlassian/confluence
