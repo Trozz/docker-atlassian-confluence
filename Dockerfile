@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM amazoncorretto:20-alpine
 
 # Setup useful environment variables
 ENV CONF_HOME     /var/atlassian/confluence
