@@ -1,9 +1,9 @@
-FROM amazoncorretto:8-alpine
+FROM amazoncorretto:11-alpine
 
 # Setup useful environment variables
 ENV CONF_HOME     /var/atlassian/confluence
 ENV CONF_INSTALL  /opt/atlassian/confluence
-ENV CONF_VERSION  7.20.3
+ENV CONF_VERSION  8.0.0
 
 ENV JAVA_CACERTS  $JAVA_HOME/jre/lib/security/cacerts
 ENV CERTIFICATE   $CONF_HOME/certificate
